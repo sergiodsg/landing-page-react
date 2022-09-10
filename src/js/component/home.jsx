@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
+import Card from "./Card.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -9,9 +10,15 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="container-fluid">
-			<Navbar />
+			<Navbar/>
 			<div className="container">
-				<Jumbotron />
+				<Jumbotron/>
+				<div className="row">
+					<Card/>
+					<Card/>
+					<Card/>
+					<Card/>
+				</div>
 			</div>
 		</div>
 	);
