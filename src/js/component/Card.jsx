@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
     return( <div className="card" style={{width: "18rem"}}>
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src="http://via.placeholder.com/500x325" className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
